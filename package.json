@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "async": "^2.4.0",
+    "cheerio": "^0.22.0",
+    "colors": "^1.1.2",
+    "mkdirp": "^0.5.1",
+    "request": "^2.81.0",
+    "socks5-http-client": "^1.0.2",
+    "unzip": "^0.1.11"
+  },
+  "name": "hentai-manga-downloader",
+  "version": "1.0.0",
+  "description": "nodejs script for downloading hentai manga",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "hentai"
+  ],
+  "author": "",
+  "license": "ISC"
+}
