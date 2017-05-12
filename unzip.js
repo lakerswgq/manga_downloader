@@ -22,11 +22,10 @@ function unzipFile (filepath, output) {
 	console.log("start to unzip file:".green, filename);
 
 	readStream
-		.pipe(unzip
-		.Extract({ path: output })
+		.pipe(unzip.Extract({ path: output }))
 		.on("close", () => {
 			console.log("unzip successfully:".blue, filename);
-		}));
+		});
 	// .pipe(writeStream);
 }
 
