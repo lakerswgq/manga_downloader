@@ -137,7 +137,7 @@ async.mapLimit(ids, concurrentLimit, function (id, callback) {
 	console.log(colors.inverse("all files downloaded!"));
 
 
-    rl.question(colors.blue('do you unzip these files? (yes/no) '), (answer) => {
+    rl.question(colors.blue('do you wanna unzip these files? (yes/no) '), (answer) => {
     // TODO: Log the answer in a database
     if (answer == "yes"){
         result.forEach((path) => {
